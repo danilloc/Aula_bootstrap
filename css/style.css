@@ -1,7 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 .navbar {   
      background-color: red;
+   
 }
 
 .quem-somos{
-    background-color: brown;
+    background-color: dimgray;
+    color: white;
+    padding: 400px;
+}
+
+.margin{
+    padding: 40px;
+    
+}
+
+.cursos{
+    background-color:grey;
+    color: white;
+    padding: 150px;
+    font-size: 15px;
+}
+
+.precos{
+    background-color: dimgray;
+    color: white;
+    overflow: hidden;
+    padding: 300px;
+}
+
+.scrollToTop{   
+    width: 100px;
+    height: 40px;
+    position:fixed;
+    right: 25px;
+    bottom: 10px;
+    z-index: 999;
+    
+}
+
+.botao{
+    text-align: justify;
 }

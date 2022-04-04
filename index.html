@@ -2,43 +2,104 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página</title>
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Página</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="imagens.img/download.png" height="80" width="80">
-        </a>
-        <div class="collapse navbar-collapse" >
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="imagens.img/download.png" height="80" width="80">
+    </a>
+    <div class="collapse navbar-collapse">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#quemsomos">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Cursos</a>
+          <a class="nav-link" href="#quemsomos">Quem Somos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Preços</a>
+          <a class="nav-link" href="#cursos">Cursos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Desabilitado</a>
+          <a class="nav-link" href="#precos">Preços</a>
         </li>
       </ul>
     </div>
-  </div>
-</nav>
-
-<section id="quemsomos">
-    <div class="container quem-somos">
-        <p>teste</p>
     </div>
-</section>
+  </nav>
 
-</body>       
+
+
+  <section id="quemsomos">
+    <div class="container-fluid quem-somos text-center margin">
+      <h3 class="margin">Quem Somos</h3>
+      <img src="imagens.img/emerging-technologies.png" class="rounded-circle" width="450" height="400">
+      <h3 class="margin">Somos um time comprometido com o aprendizado</h3>
+    </div>
+  </section>
+
+  <section id="cursos">
+    <div class="container-fluid text-center margin cursos">
+      <h3 class="margin">Cursos</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Dot net<br>
+              </h2>
+            <img src="imagens.img/curso1.png" height="350" width="350">
+          </div>
+          <div class="col-md-4">
+            <h2>c#<br>
+              </h2>
+            </h2>
+            <img src="imagens.img/curso 2 .png" height="350" width="350">
+          </div>
+
+          <div class="col-md-4">
+            <h2>Azure<br>
+              </h2>
+            </h2>
+            <img src="imagens.img/curso3.png" height="350" width="350">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="precos">
+    <div class="container-fluid text-center margin precos">
+      <h3 class="margin">Preços</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>cursos 50h</h2>
+            <button type="button" class="btn btn-primary activey btn-lg">Clique Aqui</button>
+
+          </div>
+
+          <div class="col-lg-6">
+            <h2>cursos 110h <br>
+
+            </h2>
+            <button type="button" class="btn btn-primary activey btn-lg">Clique Aqui</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div>
+      <a href="#quemsomos" class="scrollToTop btn btn-primary activey text-center">Topo</a>
+    </div>
+
+  </section>
+
+</body>
+
 </html>
